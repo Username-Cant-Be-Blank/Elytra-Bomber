@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:tnt"
+        ]
+      },
+      "mainhand": {
+        "items": [
+          "minecraft:flint_and_steel"
+        ]
+      }
+    }
+  }
+}

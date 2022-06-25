@@ -1,0 +1,1 @@
+execute as @a[nbt={FallFlying:1b},gamemode=creative] if predicate elytra_bomber:holding_flintsteel_and_tnt at @s if block ~ ~-1 ~ air if block ~ ~-2 ~ air run function elytra_bomber:tnt_release_creative

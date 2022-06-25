@@ -1,0 +1,1 @@
+execute as @s at @s if entity @e[type=!minecraft:tnt,limit=1,distance=0.001..10] as @e[type=!minecraft:tnt,dx=0,distance=..10] positioned ~-0.25 ~-0.25 ~-0.25 if entity @s[dx=0] run data modify entity @e[type=minecraft:tnt,limit=1,sort=nearest,tag=elytra_bomber.motion_bomb] Fuse set value -1
